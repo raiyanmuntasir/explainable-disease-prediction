@@ -2,7 +2,6 @@
 
 [![tests](https://github.com/raiyanmuntasir/explainable-disease-prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/raiyanmuntasir/explainable-disease-prediction/actions/workflows/ci.yml)
 ![python](https://img.shields.io/badge/python-3.10%2B-blue)
-![license](https://img.shields.io/badge/license-MIT-green)
 
 A reproducible, leakage-safe benchmark of classical, ensemble and stacked classifiers for early disease detection from tabular clinical data. It reports clinically meaningful metrics and patient-level Shapley explanations.
 
@@ -91,7 +90,3 @@ tests/         unit tests (SMOTE correctness, Shapley additivity, CV sanity)
 ## Limitations
 
 The data are public research datasets, so results do not transfer automatically to other populations or acquisition settings. This software is for research and education. It is not a medical device.
-
-## License
-
-MIT © Raiyan Muntasir Monim
